@@ -3,10 +3,12 @@ Design patterns (theory & practice)
 ==========================================================
 Personal project to learn design patterns.
 
+<!-- TODO: Add summary -->
+
 Method
 ------
-- Theory learned in the first step from explanations, diagrams, and pseudo-code (see [credits](#credits) section).
--  Training in PHP to reproduce patterns in the real case (**without "copy pasta programming"**).
+- Theory learned in the first step from explanations, diagrams, and pseudo-code (see [credits](#credits) section). In this section, I will try to reformulate these notions in order to appropriate them before practice. 
+-  Training in PHP to reproduce design patterns in the real case (**without "copy pasta programming or something like that"**).
 
 Intention
 -----

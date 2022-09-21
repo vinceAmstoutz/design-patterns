@@ -1,7 +1,7 @@
 
 Factory
 =======
-Family : Creational Design pattern
+Family : Creational Design Patterns
 
 Other less common name :  *virtual constructor*
 

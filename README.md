@@ -3,13 +3,13 @@ Learn design patterns (theoretically and then practically)
 ==========================
 Method
 ---------
-- Theory learned thanks to explanations, diagrams, and pseudo-code  (see [credits](#credits) section).
+- Theory learned thanks to explanations, diagrams, and pseudo-code (see [credits](#credits) section).
 -  Practice in PHP to reproduce patterns in real case (**without "copy pasta programming"**).
 
 Goals
 ---------
-- Known the different design patterns (global functioning and pros and cons depending on the situation )
-- Be able to reuse the most popular
+- Known the different design patterns (global functioning and pros and cons depending on the situation).
+- Be able to reuse the most popular design patterns depending on the project's structure.
 
 Credits
 ---------

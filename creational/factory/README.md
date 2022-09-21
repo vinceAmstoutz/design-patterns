@@ -28,7 +28,7 @@ How create a Factory
 
 That's it !
 
-<!-- See the sample in PHP [here]](link) #Must be finished before --> 
+<!-- TODO: Add link to the PHP exercise --> 
  
 Pros 
 -----

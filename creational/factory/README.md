@@ -6,7 +6,7 @@ Family : Creational Design Patterns
 Other less common name :  *virtual constructor*
 
 When use a factory ?
----------
+--------------------
 The classic inheritance is not convenient when whe use it on multiple levels when you have to manage different type of objects and for each of them an associate logic without touching other classes.
 
 

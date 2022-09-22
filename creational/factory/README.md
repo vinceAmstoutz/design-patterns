@@ -41,9 +41,9 @@ Cons
 Live example 
 ------------
 
-- Go to the project directory with your favorite terminal : `cd ./creational/factory/practice`;
-- Run the composer command to update the autoloader : `composer dump-autoload`;
-- Run the PHP built-in server : `php -S localhost:8000 -d display_errors=On`;
+- Go to the project directory with your favorite terminal : `cd ./creational/factory/practice`
+- Run the composer command to update the autoloader : `composer dump-autoload`
+- Run the PHP built-in server : `php -S localhost:8000 -d display_errors=On`
 
 For more info
 -------------

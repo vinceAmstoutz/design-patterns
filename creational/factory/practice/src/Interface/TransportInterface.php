@@ -3,7 +3,7 @@
 namespace App\Interface;
 
 /**
- * The Vehicle interface declare behaviors of vehicles types
+ * The Transport interface declare behaviors of object types
  */
 interface TransportInterface
 {

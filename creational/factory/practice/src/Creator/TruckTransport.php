@@ -2,12 +2,12 @@
 
 namespace App\Creator;
 
+use App\Entity\Truck;
 use App\Factory\TransportPlatform;
 use App\Interface\TransportInterface;
-use App\Connector\TruckTransportConnector;
 
 /**
- * The concrete creator which supports the truck
+ * he concrete creator who supports the delivery by trucks
  */
 class TruckTransport extends TransportPlatform
 {
@@ -26,6 +26,6 @@ class TruckTransport extends TransportPlatform
      */
     public function getTransport(): TransportInterface
     {
-        return new TruckTransportConnector($this->shipments);
+        return new Truck($this->shipments);
     }
 }

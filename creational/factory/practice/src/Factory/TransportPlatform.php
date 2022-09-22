@@ -14,7 +14,7 @@ abstract class TransportPlatform
     abstract public function getTransport(): TransportInterface;
 
     /**
-     * Subclasses may add their logic directly by redirecting a connector from the factory method 
+     * Subclasses may add their logic directly by redirecting a entity object from the factory method 
      *
      * @return void
      */

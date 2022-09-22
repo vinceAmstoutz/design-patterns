@@ -2,12 +2,12 @@
 
 namespace App\Creator;
 
+use App\Entity\Boat;
 use App\Factory\TransportPlatform;
 use App\Interface\TransportInterface;
-use App\Connector\BoatTransportConnector;
 
 /**
- * The concrete creator which supports the boat
+ * The concrete creator who supports the delivery by boats
  */
 class BoatTransport extends TransportPlatform
 {
@@ -26,6 +26,6 @@ class BoatTransport extends TransportPlatform
      */
     public function getTransport(): TransportInterface
     {
-        return new BoatTransportConnector($this->shipments);
+        return new Boat($this->shipments);
     }
 }

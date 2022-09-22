@@ -23,8 +23,8 @@ How create a Factory
 ---------------
 1. Create a factory class (also call a creator), here in our study's the `TransportPlatform` witch contains an abstract method `getTransport()` that returns a `TransportInterface` object.
 2. Create the interface `TransportInterface` and declares all concretes methods that all sub objects must implement (e.g. `load()` and `unload()`).
-3. Create for each type a subclass (one connector to each logic  one for truck e.g `BoatTransportConnector`, one for cars...) a class and implements the interface according to it's definition (mandatory methods defined in the interface) and add the logic code in each of them. **Don't forget to add the constructor method in each of them to instantiate the object !**
-4. Add a creator (e.g `BoatTransport`) to overload the factory for each subbass object and so plug the connector in the factory. 
+3. Create for each type a subclass (one entity object to each logic  one for truck e.g `Boat`, one for cars...) a class and implements the interface according to it's definition (mandatory methods defined in the interface) and add the logic code in each of them. **Don't forget to add the constructor method in each of them to instantiate the object !**
+4. Add a creator (e.g `BoatTransport`) to overload the factory for each subbass object and so plug the entity object in the factory. 
 5. In the client code inject the creator (our `TransportPlatformFactory`) and use it by calling at least one of the creator's method(s). 
 
 That's it ! Full demo [here](#live-example).

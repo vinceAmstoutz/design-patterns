@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Connector;
+namespace App\Entity;
 
 use App\Interface\TransportInterface;
 
 /**
  * Concrete product
  */
-class BoatTransportConnector implements TransportInterface
+class Boat implements TransportInterface
 {
     /**
      *

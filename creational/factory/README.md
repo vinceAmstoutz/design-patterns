@@ -21,15 +21,14 @@ The factory solve this problem by providing an interface that allow developers t
 
 How create a Factory
 ---------------
-1. Create a factory class (also call a creator), here in our study's the `VehicleFactory` witch contains an abstract method `getVehicle()` that returns a `VehicleInterface` object. 
-2. Create the interface `VehicleInterface` and declares all concretes methods that all sub objects must implement (e.g. `move()` and `reload()`).
-3. Create for each type a subclass (one connector for 4x4 cars, one connector for compact cars...) a class and implements the interface according to it's definition (mandatory methods defined in the interface) and add the logic code in each of them. **Don't forget to add the constructor method in each of them to instantiate the object !**
-4. In the client code inject the creator (our `VehicleFactory`) and use it by calling at least one of the creator's method(s). 
+1. Create a factory class (also call a creator), here in our study's the `TransportPlatform` witch contains an abstract method `getTransport()` that returns a `TransportInterface` object.
+2. Create the interface `TransportInterface` and declares all concretes methods that all sub objects must implement (e.g. `load()` and `unload()`).
+3. Create for each type a subclass (one connector to each logic  one for truck e.g `BoatTransportConnector`, one for cars...) a class and implements the interface according to it's definition (mandatory methods defined in the interface) and add the logic code in each of them. **Don't forget to add the constructor method in each of them to instantiate the object !**
+4. Add a creator (e.g `BoatTransport`) to overload the factory for each subbass object and so plug the connector in the factory. 
+5. In the client code inject the creator (our `TransportPlatformFactory`) and use it by calling at least one of the creator's method(s). 
 
-That's it !
+That's it ! Full demo [here](#live-example).
 
-<!-- TODO: Add link to the PHP exercise --> 
- 
 Pros 
 -----
 - Single Responsibility Principle
@@ -37,7 +36,14 @@ Pros
 
 Cons
 ------
-- Code may overkill if they are lot of subclasses to implement. 
+- Code may overkill if they are lot of subclasses to implement because it's creates lot of classes.
+
+Live example 
+------------
+
+- Go to the project directory with your favorite terminal : `cd ./creational/factory/practice`;
+- Run the composer command to update the autoloader : `composer dump-autoload`;
+- Run the PHP built-in server : `php -S localhost:8000 -d display_errors=On`;
 
 For more info
 -------------

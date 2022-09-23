@@ -1,0 +1,17 @@
+{
+    "name": "vince-amstoutz/practise-creational-abstract-factory",
+    "description": "Mini project to practice the abstract factory creational design pattern",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vinceAmstoutz"
+        }
+    ],
+    "require": {}
+}

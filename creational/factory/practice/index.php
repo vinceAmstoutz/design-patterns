@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 use App\Creator\BoatTransport;
 use App\Creator\TruckTransport;
 use App\Factory\TransportPlatform;
@@ -12,7 +14,7 @@ echo '<h1>Welcome in the ' . basename(dirname(ROOT_PATH))  . '  design pattern i
 echo '<p>Mini project directory :</u> ' . ROOT_PATH . '</p>';
 
 //Usage in the client code part
-$shipments = 150; //150 shipments to send
+$shipments = 150; //150 shipments to send (ugly just for this exercise)
 
 //For example if the user's choice is a delivery by boat
 deliver(new BoatTransport($shipments));
@@ -21,7 +23,7 @@ echo '-----<br>';
 deliver(new TruckTransport($shipments));
 
 /**
- * Sample of client method 
+ * Example of client method 
  *
  * @param TransportPlatform $transportPlatform
  * @return void

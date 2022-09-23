@@ -8,7 +8,7 @@ When use a factory ?
 
 Family of specific object without specifying the concrete classes.
 
-But create individual object that they match other objects of the same family to keep the logic. 
+But create individual object that they match other objects of the same family to keep the logic.
 
 
 #### Example of problem

@@ -11,4 +11,4 @@ Entities :
 - Page
 - Author
   
-One page can be cloned to facilities the creation for e.g
+One page can be cloned to facilities the creation for e.g.

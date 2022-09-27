@@ -1,0 +1,17 @@
+{
+    "name": "vince-amstoutz/practise-creational-prototype-basic",
+    "description": "Mini project to practice the prototype creational design pattern (basic implementation)",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vinceAmstoutz"
+        }
+    ],
+    "require": {}
+}

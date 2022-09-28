@@ -33,7 +33,7 @@ class Config
      */
     public static function getConfig(array $parameters = []): Config
     {
-        if (!isset(static::$_config)) {
+        if (!isset(self::$_config)) {
             self::$_config = new Config($parameters);
             echo 'Config object instantiated !<br><br>';
         }

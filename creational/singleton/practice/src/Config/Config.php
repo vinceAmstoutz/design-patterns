@@ -40,8 +40,11 @@ class Config
         return self::$_config;
     }
 
-    public function getParameter(string $key): string
+    public function getParameter(string $key): ?string
     {
+        if (!array_key_exists($key, $this->parameters)) {
+            return null;
+        }
         return $this->parameters[$key];
     }
 

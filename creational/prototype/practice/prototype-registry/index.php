@@ -14,7 +14,7 @@ echo '<h1>Welcome in the ' . basename(dirname(ROOT_PATH_PARENT))  . '  design pa
 echo '<p>Mini project directory :</u> ' . ROOT_PATH . '</p>';
 
 //Usage in the client code part (ugly display only)
-$registry = new PrototypeRegistry;
+$registry = new PrototypeRegistry();
 
 echo '1/ Original button : <br>';
 $button = new Button(10, 25, 'red');

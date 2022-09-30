@@ -52,7 +52,7 @@ var_dump($carManual);
  */
 function buildDirector(BuilderInterface $builder): Director
 {
-    $director = new Director;
+    $director = new Director();
     $director->setBuilder($builder);
 
     return $director;

@@ -14,7 +14,7 @@ class Config
      *
      * @var Config
      */
-    private static Config $_config;
+    private static Config $config;
 
     /**
      * Private constructor to create the singleton
@@ -33,11 +33,11 @@ class Config
      */
     public static function getConfig(array $parameters = []): Config
     {
-        if (!isset(self::$_config)) {
-            self::$_config = new Config($parameters);
+        if (!isset(self::$config)) {
+            self::$config = new Config($parameters);
             echo 'Config object instantiated !<br><br>';
         }
-        return self::$_config;
+        return self::$config;
     }
 
     public function getParameter(string $key): ?string
